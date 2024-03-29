@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top-strip"></div>
+    <div class="container">
+      <div class="profile-card">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="icons-container">
+          <img src="./images/like-icon.svg" alt="like-icon" />
+          <img
+            onclick="navigator.share({url: location.href})"
+            src="./images/share-icon.svg"
+            alt="share-icon"
+          />
+        </div>
+        <div class="profile-content">
+          <div class="avatar-container">
+            <img src="./images/Anurag Singh.jpg" alt="avatar" />
+            <div class="green-dot"></div>
+          </div>
+          <h3 class="card-heading">Anurag Singh Procodrr</h3>
+          <p class="card-subtitle">Frontend Developer</p>
+          <a
+            href="https://www.youtube.com/@procodrr"
+            class="view-profile-btn"
+            target="_blank"
+            >View Full Profile</a
+          >
+          <div class="social-media-icons">
+            <a class="social-media-icon" href="https://www.linkedin.com/in/anurag-singh-web-developer/" target="_blank"
+              ><img src="./images/linkedin.svg" alt="linkedin"
+            /></a>
+            <a class="social-media-icon" href="https://twitter.com/anuragsinghbam" target="_blank"
+              ><img src="./images/twitter.svg" alt="twitter"
+            /></a>
+            <a class="social-media-icon" href="https://telegram.me/procodrr" target="_blank"
+              ><img src="./images/telegram.svg" alt="telegram"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

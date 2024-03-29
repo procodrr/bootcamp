@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+table {
+    margin-inline: auto;
+    margin-top: 32px;
+}
+
+td {
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+}
+
+[for="columns-count"] {
+    margin-left: 16px;
+}

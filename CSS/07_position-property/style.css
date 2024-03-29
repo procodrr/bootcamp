@@ -1,0 +1,13 @@
+.add-button {
+    background-color: cadetblue;
+    color: white;
+    font-weight: 800;
+    width: max-content;
+    padding: 50px;
+    /* height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    cursor: pointer; */
+}

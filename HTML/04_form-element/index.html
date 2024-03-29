@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form</title>
+</head>
+
+<body>
+    <h1>HTML Form</h1>
+    <h2>Login Form</h2>
+    <form action="/">
+        <p>
+        <div><label for="name">Name</label></div>
+        <input id="name" name="name" type="text" placeholder="Enter your name" />
+        </p>
+        <p>
+        <div><label for="email">Email</label></div>
+        <input id="email" type="email" name="email" placeholder="Enter your email" />
+        </p>
+        <p>
+        <div><label for="mobile">Mobile Number</label></div>
+        <input id="mobile" name="mobile" type="tel" placeholder="Enter your mobile number" />
+        </p>
+        <p>
+        <div><label for="password">Password</label></div>
+        <input id="password" name="password" type="password" placeholder="Enter your password" />
+        </p>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+
+    <div hidden>
+        <h2>YouTube</h2>
+        <form action="https://www.youtube.com/results">
+            <input id="youtube" type="text" name="search_query" />
+            <button>Search on YouTube</button>
+        </form>
+        <h2>Flipkart</h2>
+        <form action="https://www.flipkart.com/search">
+            <label for="youtube">Flipkart Search</label>
+            <input id="flipkart" type="text" name="q" />
+            <button type="button">Search on Flipkart</button>
+        </form>
+        <h2>My Form</h2>
+        <form action="/">
+            <input type="text" placeholder="Please enter your name" required />
+            <input type="password" placeholder="Please enter your password" minlength="6" maxlength="10" />
+            <input type="number" min="100" max="500" />
+            <input type="tel" />
+            <input type="checkbox" />
+            <input type="color" />
+            <input type="date" />
+            <input type="time" />
+            <input type="file" />
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
